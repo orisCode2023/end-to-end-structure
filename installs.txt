@@ -1,7 +1,7 @@
 backend
 
 npm init -y
-npm install express nodemon dotenv mongoose bcrypt cors jsonwebtoken cookie-parser nulter
+npm install express nodemon dotenv mongoose bcrypt cors jsonwebtoken cookie-parser nulter csv-parse
 
 "scripts": {
   "dev": "nodemon server.js",
