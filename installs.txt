@@ -10,5 +10,5 @@ npm install express nodemon dotenv mongoose bcrypt cors jsonwebtoken cookie-pars
 
 
 frontend
-
+npm i 
 npm install react-router zustand
