@@ -1,7 +1,7 @@
 function Table({ dataTable }) {
-  // if (!dataTable || dataTable.length === 0) {
-  //   return <p>No data</p>; // or null / a spinner
-  // }
+  if (!dataTable || dataTable.length === 0) {
+    return <p>No data</p>; // or null / a spinner
+  }
   const headers = Object.keys(dataTable[0]);
 
   return (
