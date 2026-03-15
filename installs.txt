@@ -1,0 +1,14 @@
+backend
+
+npm init -y
+npm install express nodemon dotenv mongoose bcrypt cors jsonwebtoken cookie-parser
+
+"scripts": {
+  "dev": "nodemon server.js",
+  "start": "node server.js"
+}
+
+
+frontend
+
+npm install react-router zustand
